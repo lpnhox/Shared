@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvnumber"
+        android:layout_width="match_parent"
+        android:layout_height="404dp"
+        android:background="#5E4747"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#00FFFF"
+        android:textSize="200dp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="39dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBlack"
+            android:layout_width="109dp"
+            android:layout_height="71dp"
+            android:backgroundTint="@color/black"
+            android:text="black"></Button>
+
+        <Button
+            android:id="@+id/btnRed"
+            android:layout_width="99dp"
+            android:layout_height="68dp"
+            android:backgroundTint="#FF0000"
+            android:text="red"></Button>
+
+        <Button
+            android:id="@+id/btnBlue"
+            android:layout_width="102dp"
+            android:layout_height="68dp"
+            android:backgroundTint="#0037FF"
+            android:text="blue"></Button>
+
+        <Button
+            android:id="@+id/btnGreen"
+            android:layout_width="100dp"
+            android:layout_height="68dp"
+            android:backgroundTint="#58FA00"
+            android:text="green"></Button>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCount"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:text="Count"
+        android:textSize="30dp" />
+
+</LinearLayout>
